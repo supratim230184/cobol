@@ -5,10 +5,10 @@ pipeline {
         stage('Hello') {
             steps {
                 script {
-                if (params.branch==master) {
+                if (params.branch=master) {
                 echo 'Hello World'
                 }     
-                if (params.branch==dev) { 
+                if (params.branch=dev) { 
                       echo "hello dev"
                 }
                 }
