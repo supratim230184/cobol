@@ -6,10 +6,10 @@ pipeline {
             steps {
                 script {
                 if (params.branch == 'master') {
-                echo 'Hello World'
+                echo 'Hello World:params.branch'
                 } else {    
               
-                      echo "hello dev"
+                      echo "hello dev:params.branch"
                 }
                 }
                 
