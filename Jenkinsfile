@@ -7,8 +7,8 @@ pipeline {
                 script {
                 if (params.branch == '*master') {
                 echo 'Hello World'
-                }     
-                if (params.branch == '*dev') { 
+                } else {    
+              
                       echo "hello dev"
                 }
                 }
