@@ -4,10 +4,10 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                if (${branch==master))
+                if (${branch==master})
                 echo 'Hello World'
                       fi
-                if ((${branch==de))  
+                if (${branch==dev})  
                       echo "hello dev"
                       fi
             }
