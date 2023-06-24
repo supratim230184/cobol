@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 script {
-                if (params.branch == 'master') {
+                if (params.branch == 'origin/master') {
                 echo 'Hello World:${params.branch}'
                 } else {    
               
